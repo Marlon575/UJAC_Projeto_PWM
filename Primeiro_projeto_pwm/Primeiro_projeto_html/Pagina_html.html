@@ -1,78 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Formulário de Inscrição</title>
 
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <h2>Formulário de Inscrição - Universidade Marlon Baptista Machange</h2>
 
-<h2>Formulário de Inscrição - Universidade Marlon Baptista Machange</h2>
+    <form>
+      <label>Nome Completo:</label>
+      <input type="text" placeholder="Digite o seu nome completo" /><br /><br />
 
-<form>
-    <label>Nome Completo:</label>
-    <input type="text" placeholder="Digite o seu nome completo"><br><br>
+      <label>Idade:</label>
+      <input type="number" placeholder="Digite a sua idade atual" /><br /><br />
 
-    <label>Idade:</label>
-    <input type="number" placeholder="Digite a sua idade atual"><br><br>
+      <label>Data de Nascimento:</label>
+      <input
+        type="date"
+        placeholder="Digite a sua data de nascimento"
+      /><br /><br />
 
-    <label>Data de Nascimento:</label>
-    <input type="date" placeholder="Digite a sua data de nascimento"><br><br>
+      <label>Envial o seu Certificado:</label>
+      <input type="file" /><br /><br />
 
-    <label>Envial o seu Certificado:</label>
-    <input type="file"><br><br>
+      <label>Local de residência:</label>
+      <input
+        type="text"
+        placeholder="Digite o seu local de residência"
+      /><br /><br />
 
-    <label>Local de residência:</label>
-    <input type="text" placeholder="Digite o seu local de residência"><br><br>
+      <label>Email:</label>
+      <input type="email" placeholder="Digite o seu email" /><br /><br />
 
-    <label>Email:</label>
-    <input type="email" placeholder="Digite o seu email"><br><br>
-
-    <label>Escolha o Curso que deseja seguir:</label><br>
-    <select>
+      <label>Escolha o Curso que deseja seguir:</label><br />
+      <select>
         <option>-- Escolha um curso --</option>
         <option>Engenharia Informática</option>
         <option>Contabilidade e Auditoria</option>
         <option>Inteligência Artificial e Ciência de dados</option>
         <option>Gestão Financeira e Bancária</option>
         <option>Ciência da Educação</option>
-    </select>
+      </select>
 
-    <br>
+      <br />
 
-    <table border="1" cellpadding="5" cellspacing="0">
-        <caption><strong>Questionário de Seleção</strong></caption>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <caption>
+          <strong>Questionário de Seleção</strong>
+        </caption>
         <thead>
-            <tr>
-                <th>Pergunta</th>
-                <th>Opções</th>
-            </tr>
+          <tr>
+            <th>Pergunta</th>
+            <th>Opções</th>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Já teve experiência com computador?</td>
-                <td>
-                    <label><input type="radio" name="q1" value="sim"> Sim</label>
-                    <label><input type="radio" name="q1" value="nao"> Não</label>
-                </td>
-            </tr>
-            <tr>
-                <td>Qual é o teu nível de conhecimento sobre Informática?</td>
-                <td>
-                    <label><input type="radio" name="q2" value="basico"> Conhecimento Básico</label><br>
-                    <label><input type="radio" name="q2" value="medio"> Conhecimento Médio</label><br>
-                    <label><input type="radio" name="q2" value="avancado"> Conhecimento Avançado</label>
-                </td>
-            </tr>
+          <tr>
+            <td>Já teve experiência com computador?</td>
+            <td>
+              <label><input type="radio" name="q1" value="sim" /> Sim</label>
+              <label><input type="radio" name="q1" value="nao" /> Não</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Qual é o teu nível de conhecimento sobre Informática?</td>
+            <td>
+              <label
+                ><input type="radio" name="q2" value="basico" /> Conhecimento
+                Básico</label
+              ><br />
+              <label
+                ><input type="radio" name="q2" value="medio" /> Conhecimento
+                Médio</label
+              ><br />
+              <label
+                ><input type="radio" name="q2" value="avancado" /> Conhecimento
+                Avançado</label
+              >
+            </td>
+          </tr>
         </tbody>
-    </table>
+      </table>
 
-    <h4>Motivações</h4>
-    <textarea name="t" cols="50" placeholder="Escreva as suas motivações"></textarea>
+      <h4>Motivações</h4>
+      <textarea
+        name="t"
+        cols="50"
+        placeholder="Escreva as suas motivações"
+      ></textarea>
 
-    <button type="submit">Enviar</button>
-</form>
-
-</body>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
 </html>
