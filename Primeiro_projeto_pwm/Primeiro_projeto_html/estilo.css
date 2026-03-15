@@ -1,29 +1,29 @@
 body {
-    background-color: rgb(92, 200, 245);
-    color: rgb(1, 1, 12);
-    font-family: Arial, sans-serif;
-    padding: 20px;
+  background-color: rgb(92, 200, 245);
+  color: rgb(1, 1, 12);
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 form {
-    background-color: white;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 24px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 label {
-    font-weight: bold;
-    display: block;
-    margin-top: 12px;
-    margin-bottom: 4px;
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
 }
 
 input[type="text"],
@@ -33,73 +33,73 @@ input[type="file"],
 input[type="email"],
 select,
 textarea {
-    width: 100%;
-    padding: 8px 10px;
-    border: 1px solid #aaa;
-    border-radius: 6px;
-    font-size: 14px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-    border-color: rgb(92, 200, 245);
-    outline: none;
+  border-color: rgb(92, 200, 245);
+  outline: none;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
 table caption {
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 8px;
-    text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: left;
 }
 
 th {
-    background-color: rgb(92, 200, 245);
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #aaa;
+  background-color: rgb(92, 200, 245);
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #aaa;
 }
 
 td {
-    padding: 10px;
-    border: 1px solid #aaa;
-    vertical-align: middle;
+  padding: 10px;
+  border: 1px solid #aaa;
+  vertical-align: middle;
 }
 
 tr:nth-child(even) {
-    background-color: #f0f9fd;
+  background-color: #f0f9fd;
 }
 
 h4 {
-    margin-top: 20px;
-    margin-bottom: 6px;
+  margin-top: 20px;
+  margin-bottom: 6px;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button {
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px 20px;
-    background-color: rgb(0, 6, 132);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(0, 6, 132);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(0, 4, 100);
+  background-color: rgb(0, 4, 100);
 }
