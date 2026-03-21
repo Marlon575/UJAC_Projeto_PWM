@@ -30,13 +30,35 @@
             </select><br><br>
             <label>Questionário de Seleção</label><br><br>
             <table>
+                <tr>
+                    <th>#</th>
+                        <th>Pergunta</th>
+                        <th>Opcões</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td> Já teve experiência com computadores?</td>
+                    <td>
+                        <label class="opcao">
+                            <input type="radio" name="=q1" value="sim">Sim
+                        </label>
+                        <label class="opcao">
+                            <input type="radio" name="q1" value="nao">Não
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Qual é o teu nível de conhecimento?</td>
+                    <td>
+                        <label class="opcao"><input type ="radio" name="q2" value="basico">Básico</label>
+                        <label class="opcao"><input type="radio" name="q2" value="medio"> Médio</label>
+                        <label class="opcao"><input type="radio" name="q2" value="avancado"> Avançado</label>
+                    </td>
+                    </tr>
             </table>
-        
-                
-            
-        
+            <button type="submit">Enviar</button>
         </form>
-
 
     </body>
 </html>
