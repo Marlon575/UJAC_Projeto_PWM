@@ -9,22 +9,22 @@
 
         <form class="caixa">
             <label>Nome Completo:</label><br>
-            <input type="text"placeholder="Digite o seu nome completo"><br><br>
+            <input type="text"id="nome"placeholder="Digite o seu nome completo"><br><br>
 
             <label>Idade:</label><br>
-            <input type="number" placeholder="Digite a sua idade"><br><br>
+            <input type="number" id="idade" placeholder="Digite a sua idade"><br><br>
 
             <label>Data de Nascimento:</label><br>
             <input type="date"><br><br>
 
             <label>Telefone:</label><br>
-            <input type="tel" placeholder="Digite o seu Telefone"><br><br>
+            <input type="tel" id="Telefone" placeholder="Digite o seu Telefone"><br><br>
 
             <label>Email:</label><br>
-            <input type="email" placeholder="Digite  o seu email"><br><br>
+            <input type="email" id="email" placeholder="Digite  o seu email"><br><br>
 
             <label>Morada:</label><br>
-            <input type="text" placeholder="Digite a sua morada"><br><br>
+            <input type="text" id="morada" placeholder="Digite a sua morada"><br><br>
 
             <label>Enviar Certificado:</label><br>
             <input type="file"><br><br>
@@ -66,8 +66,8 @@
                     </td>
                     </tr>
             </table>
-            <button type="submit">Enviar</button>
+            <button type="button" onclick="validarFormulario()">Enviar</button>
         </form>
-
+<script src="script.js"></script>
     </body>
 </html>
