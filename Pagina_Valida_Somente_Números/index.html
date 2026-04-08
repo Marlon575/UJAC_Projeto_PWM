@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+    <link rel="stylesheet" href="Valida_somente_números_CSS/styles.css">
+</head>
+<body>
+
+    <div class="page">
+
+        <h1 class="titulo">Formulário de Validação</h1>
+        <p class="subtitulo">Teste de validação dos campos</p>
+
+        <div class="form-card">
+
+
+            <div class="field-group">
+                <label class="field-label" for="campo-numero">
+                    Número de telefone
+                    <span class="badge badge-num">Somente números</span>
+                </label>
+                <div class="input-wrap">
+                    <input type="text" id="campo-numero" placeholder="EX: 871234567" maxlength="15">
+                    <span class="icone" id="icone-numero"></span>
+                </div>
+                <div class="msg" id="msg-numero">Digite apenas dígitos (0-9)</div>
+            </div>
+
+            <hr class="divider">
+
+            
+            <div class="field-group">
+                <label class="field-label" for="campo-texto">
+                    Texto
+                    <span class="badge badge-txt">Somente letras</span>
+                </label>
+                <div class="input-wrap">
+                    <input type="text" id="campo-texto" placeholder="Ex: João Maputo">
+                    <span class="icone" id="icone-texto"></span>
+                </div>
+                <div class="msg" id="msg-texto">Apenas letras e espaços, sem números</div>
+            </div>
+
+            <hr class="divider">
+
+            
+            <div class="field-group">
+                <label class="field-label" for="campo-email">
+                    E-mail
+                    <span class="badge badge-email">Formato e-mail</span>
+                </label>
+                <div class="input-wrap">
+                    <input type="text" id="campo-email" placeholder="Ex: joao@gmail.com">
+                    <span class="icone" id="icone-email"></span>
+                </div>
+                <div class="msg" id="msg-email">Formato: utilizador@dominio.com</div>
+            </div>
+
+            <hr class="divider">
+
+            
+            <div class="btn-row">
+                <button class="btn" onclick="limpar()">Limpar</button>
+                <button class="btn btn-submit" onclick="validarTudo()">Validar tudo</button>
+            </div>
+
+            <div class="resultado" id="resultado"></div>
+
+        </div> 
+
+    </div> 
+
+    <script src="Valida_somente_números_JS/script.js"></script>
+
+</body>
+</html>
