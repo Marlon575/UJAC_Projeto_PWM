@@ -17,6 +17,5 @@ if (idade >= 18) {
     resultado.className = "resultado menor";
 }
 
-botao.addEventListener("click", verificarIdade);
-
 }
+botao.addEventListener("click", verificarIdade);
